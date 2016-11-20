@@ -1,0 +1,95 @@
+body {
+	height: 100%;
+}
+* {
+	margin:0;padding:0;
+	font-family:'Helvetica Neue', sans-serif;
+}
+
+.container {
+	padding: 10px;
+}
+
+.menu {
+	width: 100%;
+	height: 100%;
+}
+
+.menu a{
+	height: 100vh;
+	padding-top: calc(50vh - 16px);
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+#orders {
+	float: left;
+	background-color: black;
+	color: white;
+}
+#browse {
+	float: right;
+	background-color: white;
+	color: black;
+}
+
+form label {
+	display: block;
+}
+
+.orderstable {
+	text-align: center;
+	border-spacing: 0;
+	background: white;
+	margin: 10px 0px;
+	border-right: 2px #eee solid;
+	border-left: 2px #eee solid;
+	border-bottom: 1px #eee solid;
+}
+
+
+th {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	font-weight: 400;
+
+}
+
+td {
+	padding: 10px;
+	border: 1px #eee solid;
+}
+
+tr:hover {
+	background-color: #ededed;
+}
+
+button {
+	border:none;
+	color: white;
+	font-size: 20px;
+	background: #3498db;
+	padding: 10px 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	background: #3cb0fd;
+}
+
+#browseform *{
+	min-width: 240px;
+	display: block;
+	padding: 10px 10px;
+}
+
+#browseform label,
+#browseform select {
+	padding: 10px 0px;
+}
+
+#browseform button{
+	margin: 25px 0px;
+}
